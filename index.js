@@ -14,7 +14,7 @@ const io = new Server(server, {
     origin: [
       "http://localhost:5173", // Local development
       "http://localhost:3000", // Alternative local port
-      process.env.CLIENT_URL || "https://your-frontend-url.vercel.app" // Production frontend
+      process.env.CLIENT_URL || "https://battleships-clone-frontend.vercel.app/" // Production frontend
     ],
     methods: ["GET", "POST"],
     credentials: true
